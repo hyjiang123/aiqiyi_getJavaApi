@@ -83,8 +83,9 @@
     <modules>
         <module>vuln-core</module>
         <module>vuln-springboot2</module>
-        <module>vuln-springboot3</module>
+<!--        <module>vuln-springboot3</module>-->
         <module>vuln-test</module>
+        <module>vuln-agent</module>
     </modules>
 
 </project>

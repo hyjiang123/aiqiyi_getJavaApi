@@ -1,0 +1,387 @@
+[ {
+  "uri" : "/Expression/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Patch//readFileTest.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/DisableMethod//log4j.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/CMD/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "MultipartFile"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/SQL/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "MultipartFile"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/FileSystem/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "MultipartFile"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Test/GET",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Request/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/XStream/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/SSRF/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/XSS/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "MultipartFile"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Yaml/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Deserialization/GET",
+  "method" : "get",
+  "parameters" : [ ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/FastJson//fastJsonParseObject.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Jackson//readValue.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/XXE/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "MultipartFile"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Test/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/JNDI/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Blacklist//blacklist.do",
+  "method" : "get",
+  "parameters" : [ ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Whitelist//url.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/ScriptEngine//scriptEngineEval.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Blacklist//url.do",
+  "method" : "get",
+  "parameters" : [ ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Velocity//template.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/Deserialization/POST",
+  "method" : "post",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "Map"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+}, {
+  "uri" : "/FileUpload//upload.do",
+  "method" : "get",
+  "parameters" : [ {
+    "name" : "arg0",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "MultipartFile"
+    }
+  }, {
+    "name" : "arg1",
+    "in" : "parameter",
+    "required" : true,
+    "schema" : {
+      "type" : "String"
+    }
+  } ],
+  "responses" : {
+    "200" : {
+      "description" : "ok"
+    }
+  }
+} ]
