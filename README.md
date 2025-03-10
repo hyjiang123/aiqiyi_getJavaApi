@@ -107,7 +107,8 @@ java -javaagent:vuln-agent-3.0.3.jar -jar vuln-springboot2-3.0.3.jar
 
 或者在idea编译器中增加参数：
 
-![image-20250310200555834](C:\Users\Hgj\AppData\Roaming\Typora\typora-user-images\image-20250310200555834.png)
+![Uploading image.png…]()
+
 
 
 
