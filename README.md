@@ -107,7 +107,8 @@ java -javaagent:vuln-agent-3.0.3.jar -jar vuln-springboot2-3.0.3.jar
 
 或者在idea编译器中增加参数：
 
-![Uploading image.png…]()
+见img1.png
+
 
 
 
